@@ -1,13 +1,18 @@
 body {
     font-family: "Lilita One", sans-serif;
-    background: rgb(39,39,39,1);
-    background: radial-gradient(circle at bottom right, rgba(148,141,192,1) 0%, rgba(39,39,39,1) 50%, rgba(39,39,39,1) 100%);
+    background: rgb(39, 39, 39, 1);
+    background: radial-gradient(circle at bottom right, rgba(148, 141, 192, 1) 0%, rgba(39, 39, 39, 1) 50%, rgba(39, 39, 39, 1) 100%);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.btn{
+html > body.tc-disable-scroll {
+    position: relative;
+    top: 0 !important;
+}
+
+.btn {
     font-size: 0.83rem;
 }
 
@@ -18,7 +23,7 @@ body {
     width: 100%;
 }
 
-.heder h1{
+.heder h1 {
     font-size: 2rem;
 }
 
@@ -26,33 +31,32 @@ body {
     padding-top: 1rem;
 }
 
-.heder .coin
-{
+.heder .coin {
     width: 5rem;
     margin-left: auto;
     margin-right: 0;
 }
 
-.butonz .btn{
+.butonz .btn {
     padding: 0.4rem 15%;
     border: 5px #B9B0F0 solid;
 }
 
-.butonz .btn.eror{
+.butonz .btn.eror {
     float: right;
     border: 5px #E95656 solid;
     background: none;
     color: #E95656;
 }
 
-.butonz .btn.connecd{
+.butonz .btn.connecd {
     margin-left: 0.5rem;
     background-color: white;
     border-color: white;
     color: #948DC0;
 }
 
-.betz{
+.betz {
     margin-top: 1rem;
 }
 
@@ -60,32 +64,32 @@ body {
     margin: 1rem 0;
 }
 
-.candydate .row{
+.candydate .row {
     border: 5px #B9B0F0 solid;
     border-radius: 30px;
     padding: 0.3rem 0.6rem;
 }
 
-.candydate .avatar>img {
+.candydate .avatar > img {
     width: 64px;
     height: 64px;
 }
 
-.candydate .describten{
+.candydate .describten {
     padding-left: 1rem;
     line-height: 1;
 }
 
-.candydate .describten h2{
+.candydate .describten h2 {
     font-size: 1.5rem;
     text-align: left;
 }
 
-.candydate .describten span{
+.candydate .describten span {
     font-size: 0.7rem;
 }
 
-.candydate .buton>.btn{
+.candydate .buton > .btn {
     font-size: 1rem;
     background-color: white;
     border-color: white;
@@ -97,7 +101,7 @@ body {
     margin-top: auto;
 }
 
-.futer .cards{
+.futer .cards {
     height: 30vh;
     width: 100%;
     margin-bottom: -3vh;
