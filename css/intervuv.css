@@ -12,7 +12,7 @@ html > body.tc-disable-scroll {
     top: 0 !important;
 }
 
-.btn {
+.btn, #bolance {
     font-size: 0.83rem;
 }
 
@@ -38,22 +38,35 @@ html > body.tc-disable-scroll {
 }
 
 .butonz .btn {
-    padding: 0.4rem 15%;
+    padding: 0.4rem 10%;
     border: 5px #B9B0F0 solid;
 }
 
-.butonz .btn.eror {
+#bolance {
+    display: block;
+    background: none;
+    padding: 0.4rem 10%;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    color: white;
+}
+
+#bolance.eror {
     float: right;
     border: 5px #E95656 solid;
     background: none;
     color: #E95656;
 }
 
-.butonz .btn.connecd {
+.butonz .btn {
     margin-left: 0.5rem;
     background-color: white;
     border-color: white;
     color: #948DC0;
+}
+
+#bolance:not(:disabled):not(.disabled) {
+    cursor: auto;
 }
 
 .betz {
@@ -105,4 +118,8 @@ html > body.tc-disable-scroll {
     height: 30vh;
     width: 100%;
     margin-bottom: -3vh;
+}
+
+.cursor-defolt {
+    cursor: default!important;
 }
