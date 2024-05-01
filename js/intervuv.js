@@ -28,8 +28,8 @@ $(document).ready(() => {
             resolve({
                 user: {
                     tg_id: tg_id,
-                    balance: "12345",
-                    raw_balance: 12345,
+                    balance: "123kk",
+                    raw_balance: 123456789,
                     voted: false,
                     vote_id: null
                 }
