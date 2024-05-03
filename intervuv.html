@@ -13,13 +13,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="icon" type="image/png" href="/img/favicon.png">
     <script src="https://cdn.counter.dev/script.js" data-id="eb54da55-2a0f-4230-a9aa-e160112f3e1f"></script>
+    <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
 <header class="heder">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-6 text-left">
-                <h1 id="username">whor u?!</h1>
+                <h1 id="userneim">whur u?!</h1>
             </div>
             <div class="col-6" id="avatar">
                 <div class="coin"></div>
@@ -31,15 +36,15 @@
     <div class="container">
         <div class="row justify-content-center no-gutters butonz">
             <div class="col-8">
-                <div class="btn eror">conecd ur wolet to see bolance</div>
+                <div class="eror" id="bolance">conecd ur wolet to see bolance</div>
             </div>
             <div class="col-4">
-                <button class="btn connecd">conecd wolet</button>
+                <button class="btn connecd" id="ton-connect">conecd wolet</button>
             </div>
         </div>
         <div class="row betz">
             <div class="col-12">
-                <h1>Hu wil win?</h1>
+                <h1>whu wil win?</h1>
             </div>
             <div class="col-12 candydate">
                 <div class="row no-gutters">
@@ -51,7 +56,7 @@
                         <span>someone says that he shoots webs not only from his hands.</span>
                     </div>
                     <div class="col-3 buton">
-                        <button class="btn connecd">conecd wolet</button>
+                        <button class="btn connecd" data-id="1">conecd wolet</button>
                     </div>
                 </div>
             </div>
@@ -65,7 +70,7 @@
                         <span>someone says that he shoots webs not only from his hands.</span>
                     </div>
                     <div class="col-3 buton">
-                        <button class="btn connecd">conecd wolet</button>
+                        <button class="btn connecd" data-id="2">conecd wolet</button>
                     </div>
                 </div>
             </div>
@@ -79,7 +84,7 @@
                         <span>someone says that he shoots webs not only from his hands.</span>
                     </div>
                     <div class="col-3 buton">
-                        <button class="btn connecd">conecd wolet</button>
+                        <button class="btn connecd" data-id="3">conecd wolet</button>
                     </div>
                 </div>
             </div>
@@ -91,10 +96,11 @@
         <div class="cards col-8">
             <div class="card-background"></div>
             <div class="card-foreground">
-                <span>helou. i am toker</span>
+                <span id="toker">helou. i am toker</span>
             </div>
         </div>
     </div>
 </footer>
+<script src="js/intervuv.js"></script>
 </body>
 </html>
