@@ -43,6 +43,7 @@ html > body.tc-disable-scroll {
 
 .butonz .btn.connecd {
     float: right;
+    font-family: "Lilita One", sans-serif;
 }
 
 #bolance {
@@ -119,6 +120,7 @@ html > body.tc-disable-scroll {
 .candydate .buton > .btn {
     font-family: "Lilita One", sans-serif;
     font-size: 0.83rem;
+    padding: 0.33rem 0.5rem;
     background-color: white;
     border-color: white;
     white-space: nowrap;
