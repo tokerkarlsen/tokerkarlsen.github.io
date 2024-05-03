@@ -106,7 +106,9 @@ html > body.tc-disable-scroll {
 }
 
 .candydate .describten span {
-    font-size: 0.7rem;
+    display: block;
+    font-size: 2.4vw;
+    line-height: 1.4;
 }
 
 .candydate .buton {
