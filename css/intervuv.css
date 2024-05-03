@@ -2,6 +2,8 @@ body {
     background: rgb(39, 39, 39, 1);
     background: radial-gradient(circle at bottom right, rgba(148, 141, 192, 1) 0%, rgba(39, 39, 39, 1) 50%, rgba(39, 39, 39, 1) 100%);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 html > body.tc-disable-scroll {
@@ -10,7 +12,6 @@ html > body.tc-disable-scroll {
 }
 
 .btn, #bolance {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 0.83rem;
 }
 
@@ -43,7 +44,6 @@ html > body.tc-disable-scroll {
 
 .butonz .btn.connecd {
     float: right;
-    font-family: "Lilita One", sans-serif;
 }
 
 #bolance {
@@ -67,6 +67,15 @@ html > body.tc-disable-scroll {
     background-color: white;
     border-color: white;
     color: #948DC0;
+}
+
+.butonz {
+    font-family: "Lilita One", sans-serif;
+}
+
+.butonz .col-4 {
+    display: flex;
+    justify-content: flex-end;
 }
 
 #bolance:not(:disabled):not(.disabled) {
